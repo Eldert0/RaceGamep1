@@ -1,0 +1,8 @@
+G:\School\Project RaceGame\RaceGameExample\bin\Debug\RaceGameExample.exe
+G:\School\Project RaceGame\RaceGameExample\bin\Debug\RaceGameExample.pdb
+G:\School\Project RaceGame\RaceGameExample\obj\x86\Debug\RaceGame.csprojResolveAssemblyReference.cache
+G:\School\Project RaceGame\RaceGameExample\obj\x86\Debug\RaceGameExample.formRaceGame.resources
+G:\School\Project RaceGame\RaceGameExample\obj\x86\Debug\RaceGameExample.Properties.Resources.resources
+G:\School\Project RaceGame\RaceGameExample\obj\x86\Debug\RaceGame.csproj.GenerateResource.Cache
+G:\School\Project RaceGame\RaceGameExample\obj\x86\Debug\RaceGameExample.exe
+G:\School\Project RaceGame\RaceGameExample\obj\x86\Debug\RaceGameExample.pdb

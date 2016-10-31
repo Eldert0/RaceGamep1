@@ -40,6 +40,7 @@
             this.ClientSize = new System.Drawing.Size(1318, 631);
             this.Name = "formRaceGame";
             this.Text = "RaceGameExample";
+            this.Load += new System.EventHandler(this.formRaceGame_Load);
             this.ResumeLayout(false);
 
         }

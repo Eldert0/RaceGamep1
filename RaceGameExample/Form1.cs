@@ -15,8 +15,13 @@ namespace RaceGameExample {
 
         List<Car> cars = new List<Car>();
 
+        Road road;
+
         public formRaceGame() {
             InitializeComponent();
+
+            // create road
+            road = new Road();
 
             //aanmaken van de auto's
             Car car1 = new Car(30, 30, 0, 0, Keys.Left, Keys.Right, Keys.Up, Keys.Down, new Bitmap(Path.Combine(Environment.CurrentDirectory, "Deathstar.png")));
@@ -67,8 +72,13 @@ namespace RaceGameExample {
 
 
         void Draw(Graphics g) {
+            // draw road environment
+            g.DrawImage(road.environment(), road.getPosition());
+
             foreach (Car car in cars)
                 g.DrawImage(car.getImage(), car.getPosition());
+
+           
         }
 
         private void timerGameTicks_Tick(object sender, EventArgs e) {
@@ -76,6 +86,11 @@ namespace RaceGameExample {
                 car.calculateNewPosition();
 
             Invalidate();
+        }
+
+        private void formRaceGame_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
