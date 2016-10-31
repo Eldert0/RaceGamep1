@@ -21,3 +21,5 @@ G:\Users\Eldert\OneDrive\School\HBO - Informatica\Jaar 1\Racegame\voorbeeld\Race
 G:\Users\Eldert\OneDrive\School\HBO - Informatica\Jaar 1\Racegame\voorbeeld\RaceGameExample\RaceGameExample\obj\x86\Debug\RaceGameExample.formRaceGame.resources
 G:\Users\Eldert\OneDrive\School\HBO - Informatica\Jaar 1\Racegame\voorbeeld\RaceGameExample\RaceGameExample\obj\x86\Debug\RaceGameExample.Properties.Resources.resources
 G:\Users\Eldert\OneDrive\School\HBO - Informatica\Jaar 1\Racegame\voorbeeld\RaceGameExample\RaceGameExample\obj\x86\Debug\RaceGameExample.csproj.GenerateResource.Cache
+G:\School\Project RaceGame\RaceGameExample\obj\x86\Debug\RaceGameExample.exe
+G:\School\Project RaceGame\RaceGameExample\obj\x86\Debug\RaceGameExample.pdb
