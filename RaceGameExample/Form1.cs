@@ -22,7 +22,9 @@ namespace RaceGameExample {
 
             // create road
             road = new Road();
-
+            Console.WriteLine("tering ");
+            // draw road environment
+            
             //aanmaken van de auto's
             Car car1 = new Car(30, 30, 0, 0, Keys.Left, Keys.Right, Keys.Up, Keys.Down, new Bitmap(Path.Combine(Environment.CurrentDirectory, "Deathstar.png")));
             Car car2 = new Car(90, 20, 0, 0, Keys.A, Keys.D, Keys.W, Keys.S, new Bitmap(Path.Combine(Environment.CurrentDirectory, "Tardis.gif")));
@@ -58,7 +60,7 @@ namespace RaceGameExample {
             if (Backbuffer != null) {
                 e.Graphics.DrawImageUnscaled(Backbuffer, Point.Empty);
             }
-
+            
             Draw(e.Graphics);
         }
 
@@ -72,13 +74,13 @@ namespace RaceGameExample {
 
 
         void Draw(Graphics g) {
-            // draw road environment
-            g.DrawImage(road.environment(), road.getPosition());
+            //g.DrawImage(road.getImage(), road.getPosition());
+            Image kaas = (System.Drawing.Image) road.getImage();
+           
+            g.DrawImage(kaas, road.getPosition() );
 
             foreach (Car car in cars)
                 g.DrawImage(car.getImage(), car.getPosition());
-
-           
         }
 
         private void timerGameTicks_Tick(object sender, EventArgs e) {
@@ -90,7 +92,7 @@ namespace RaceGameExample {
 
         private void formRaceGame_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

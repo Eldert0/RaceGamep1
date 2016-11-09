@@ -6,3 +6,4 @@ G:\School\Project RaceGame\RaceGameExample\obj\x86\Debug\RaceGameExample.Propert
 G:\School\Project RaceGame\RaceGameExample\obj\x86\Debug\RaceGame.csproj.GenerateResource.Cache
 G:\School\Project RaceGame\RaceGameExample\obj\x86\Debug\RaceGameExample.exe
 G:\School\Project RaceGame\RaceGameExample\obj\x86\Debug\RaceGameExample.pdb
+G:\School\Project RaceGame\RaceGameExample\bin\Debug\grass.jpg

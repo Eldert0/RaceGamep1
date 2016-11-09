@@ -1,0 +1,8 @@
+G:\School\Project RaceGame\example 2\CarRace\Cars\bin\Debug\CarRace.exe
+G:\School\Project RaceGame\example 2\CarRace\Cars\bin\Debug\CarRace.pdb
+G:\School\Project RaceGame\example 2\CarRace\Cars\obj\Debug\Cars.csprojResolveAssemblyReference.cache
+G:\School\Project RaceGame\example 2\CarRace\Cars\obj\Debug\CarRace.MainForm.resources
+G:\School\Project RaceGame\example 2\CarRace\Cars\obj\Debug\CarRace.Properties.Resources.resources
+G:\School\Project RaceGame\example 2\CarRace\Cars\obj\Debug\Cars.csproj.GenerateResource.Cache
+G:\School\Project RaceGame\example 2\CarRace\Cars\obj\Debug\CarRace.exe
+G:\School\Project RaceGame\example 2\CarRace\Cars\obj\Debug\CarRace.pdb
